@@ -27,4 +27,5 @@ $ python main.py <путь до контейнера>
 
 ### Ссылки
 [Статья на хабре](https://habr.com/ru/articles/823772/)
+
 [Статья в блоге](https://blog.li0ard.rest/editor/anticryptopro_p3)
