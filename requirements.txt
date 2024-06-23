@@ -1,0 +1,2 @@
+pyderasn==9.3
+pygost==5.11
