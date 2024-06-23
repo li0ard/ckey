@@ -1,10 +1,6 @@
 from pyderasn import Sequence, OctetString, Any, IA5String, ObjectIdentifier, tag_ctxc, tag_ctxp, BitString, Integer
 from pygost.asn1schemas.x509 import Certificate
 
-gost2001_dh = ObjectIdentifier("1.2.643.2.2.98")
-gost2012_256_dh = ObjectIdentifier("1.2.643.7.1.1.6.1")
-gost2012_512_dh = ObjectIdentifier("1.2.643.7.1.1.6.2")
-
 class KeyAlgorithmParameters(Sequence):
     schema = (
         ("curve", ObjectIdentifier()),
